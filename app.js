@@ -1,4 +1,11 @@
 let favoriteCityId="rome";
-console.log(favoriteCityId);
+//console.log(favoriteCityId);
 favoriteCityId="paris";
-console.log(favoriteCityId);
+//console.log(favoriteCityId);
+
+const citiesId =["paris", "nyc", "rome", "rio-de-janeiro"];
+console.log(citiesId);
+//Assignment to constant variable.
+//citiesId=[];
+citiesId.push("tokyo");
+console.log(citiesId);
