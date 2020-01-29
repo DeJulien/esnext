@@ -24,5 +24,15 @@ let {
     temperature: numTemperature
   } = weather;
 
-  console.log(nomCity); // Robert
-  console.log(numTemperature);
+  //console.log(nomCity); 
+  //console.log(numTemperature);
+
+
+let [parisId,nycId,...othersCitiesId] = citiesId;
+console.log(parisId);
+console.log(nycId);
+console.log(othersCitiesId.length);
+
+class Trip{
+    
+}
